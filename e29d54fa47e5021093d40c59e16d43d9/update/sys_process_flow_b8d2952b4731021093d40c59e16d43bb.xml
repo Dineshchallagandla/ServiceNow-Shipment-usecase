@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1212975_ship_ship">u_choice_4=delivered^EQ<item display_value="Delivered" endquery="false" field="u_choice_4" goto="false" newquery="false" operator="=" or="false" value="delivered"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>delivered</label>
+        <name>Delivered</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 07:18:09</sys_created_on>
+        <sys_id>b8d2952b4731021093d40c59e16d43bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Delivered</sys_name>
+        <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+        <sys_update_name>sys_process_flow_b8d2952b4731021093d40c59e16d43bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 07:18:09</sys_updated_on>
+        <table>x_1212975_ship_ship</table>
+    </sys_process_flow>
+</record_update>

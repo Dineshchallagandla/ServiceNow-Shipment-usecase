@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Notes" section_id="74c8bc3a4769021093d40c59e16d43ce" sys_domain="global" table="incident" version="3" view="ship">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_id>4dc8fc3a4769021093d40c59e16d4328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_id>cdc8fc3a4769021093d40c59e16d4328</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_id>41c8fc3a4769021093d40c59e16d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_id>c1c8fc3a4769021093d40c59e16d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_id>45c8fc3a4769021093d40c59e16d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_id>c5c8fc3a4769021093d40c59e16d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_id>49c8fc3a4769021093d40c59e16d4329</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notes</caption>
+            <header>false</header>
+            <name>incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74c8bc3a4769021093d40c59e16d43ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+            <sys_update_name>sys_ui_section_74c8bc3a4769021093d40c59e16d43ce</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:09</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ship" name="ship">a11d6cfa4729021093d40c59e16d4398</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

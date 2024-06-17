@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="d84ed87e47e5021093d40c59e16d4310" label="ship" max_length="40" name="x_1212975_ship_ship" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="city" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="country" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Location" mandatory="true" max_length="32" name="location" reference="cmn_location" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Location Name" max_length="40" name="name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Shipment Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="RequestedFor" mandatory="true" max_length="32" name="requestedfor" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Order Type" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Cancel" sequence="1" value="cancel"/>
+                <element inactive_on_update="false" label="Return" sequence="2" value="return"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="requested" label="Approve Status" max_length="40" name="u_choice_10" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Shipment Type" max_length="40" name="u_choice_3" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="C" sequence="0" value="C"/>
+                <element inactive_on_update="false" label="Ekart" sequence="0" value="ekart"/>
+                <element inactive_on_update="false" label="Express" sequence="1" value="express"/>
+                <element inactive_on_update="false" label="DTDC" sequence="2" value="dtdc"/>
+                <element inactive_on_update="false" label="DLink" sequence="3" value="dlink"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="intransit" label="Shipping Status" max_length="40" name="u_choice_4" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="InTransit" sequence="0" value="intransit"/>
+                <element inactive_on_update="false" label="Shipping" sequence="1" value="shipping"/>
+                <element inactive_on_update="false" label="Delivered" sequence="2" value="delivered"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" max_length="40" name="u_choice_7" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="hard ware"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="soft ware"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Sub Category" max_length="40" name="u_choice_8" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="2" sequence="0" value="2"/>
+                <element inactive="true" inactive_on_update="true" label="Application" sequence="0" value="application"/>
+                <element inactive_on_update="false" label="Applications" sequence="0" value="Applications"/>
+                <element inactive="true" inactive_on_update="true" label="CPU" sequence="1" value="cpu"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
+                <element inactive_on_update="false" label="Keyboard" sequence="2" value="keyboard"/>
+                <element inactive_on_update="false" label="JDK" sequence="3" value="JDK"/>
+                <element inactive_on_update="false" label="HeadPhones" sequence="4" value="headphones"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="sub category" max_length="40" name="u_choice_9" type="string">
+            <choice>
+                <element inactive_on_update="false" label="JDK" sequence="0" value="jdk"/>
+                <element inactive_on_update="false" label="Applications" sequence="1" value="applications"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Order Date" max_length="40" name="u_glide_date_5" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Delivered Date" max_length="40" name="u_glide_date_6" read_only="true" type="glide_date"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_1" reference="sys_user" type="glide_list"/>
+        <element label="Contact Number" mandatory="true" max_length="40" name="u_integer_2" type="integer"/>
+        <element attributes="encode_utf8=false" label="Created By" max_length="32" name="u_reference_1" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="40" name="u_string_11" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Pone Number" max_length="40" name="u_string_2" type="string"/>
+        <index name="index">
+            <element name="location"/>
+        </index>
+        <index name="index2">
+            <element name="requestedfor"/>
+        </index>
+        <index name="index3">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

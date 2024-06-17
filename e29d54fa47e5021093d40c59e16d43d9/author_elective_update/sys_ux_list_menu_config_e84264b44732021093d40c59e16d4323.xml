@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="DELETE">
+        <active>true</active>
+        <description>demo ship</description>
+        <name>demo</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 07:45:52</sys_created_on>
+        <sys_id>e84264b44732021093d40c59e16d4323</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo</sys_name>
+        <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_e84264b44732021093d40c59e16d4323</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 07:45:52</sys_updated_on>
+    </sys_ux_list_menu_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ship">e29d54fa47e5021093d40c59e16d43d9</application>
+        <file_path/>
+        <instance_id>eb563341db76fdd038f1172913961961</instance_id>
+        <instance_name>dev226390</instance_name>
+        <name>sys_ux_list_menu_config_e84264b44732021093d40c59e16d4323</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config"><sys_ux_list_menu_config action="INSERT_OR_UPDATE"><active>true</active><description>demo ship</description><name>demo</name><sys_class_name>sys_ux_list_menu_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-06-12 07:45:52</sys_created_on><sys_id>e84264b44732021093d40c59e16d4323</sys_id><sys_mod_count>0</sys_mod_count><sys_name>demo</sys_name><sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package><sys_policy/><sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope><sys_update_name>sys_ux_list_menu_config_e84264b44732021093d40c59e16d4323</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-06-12 07:45:52</sys_updated_on></sys_ux_list_menu_config></record_update>]]></payload>
+        <payload_hash>545227182</payload_hash>
+        <record_name>demo</record_name>
+        <reverted_from/>
+        <source>6a9d54fa47e5021093d40c59e16d43db</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 07:45:52</sys_created_on>
+        <sys_id>1a52a0384732021093d40c59e16d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1900b690be60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 07:45:52</sys_updated_on>
+        <type>UX List Menu Configuration</type>
+        <update_guid>5e52a038603202106fbe0490d476a0e2</update_guid>
+        <update_guid_history>5e52a038603202106fbe0490d476a0e2:545227182</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-06-12 07:48:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list_menu_config">sys_ux_list_menu_config</sys_db_object>
+        <sys_id>a4c7836784cd44989e0304ebf1c66c90</sys_id>
+        <sys_metadata>e84264b44732021093d40c59e16d4323</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo</sys_name>
+        <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+        <sys_scope_delete display_value="">857ef12e9a914c9c8ad8f3c1261d0310</sys_scope_delete>
+        <sys_update_name>sys_ux_list_menu_config_e84264b44732021093d40c59e16d4323</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_menu_config_e84264b44732021093d40c59e16d4323">1a52a0384732021093d40c59e16d43e3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-06-12 07:48:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" db_object_id="8ef778397db1311076daf29f52070d0e" extends="task" label="Incident" max_length="40" name="incident" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Shipment Id Location" max_length="32" name="x_1212975_ship_shipment_id" reference="x_1212975_ship_ship" type="reference"/>
+        <element attributes="encode_utf8=false" label="ship" max_length="32" name="x_1212975_ship_u_reference_1" reference="x_1212975_ship_ship" type="reference"/>
+    </element>
+</database>
