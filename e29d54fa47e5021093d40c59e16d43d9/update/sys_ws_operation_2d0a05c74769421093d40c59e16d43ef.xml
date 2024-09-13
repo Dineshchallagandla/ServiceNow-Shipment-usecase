@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Get shipment</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+    var answer = [];
+
+    var number = request.pathParams.number;
+    if (!number) {
+        response.setError(new sn_ws_err.NotFoundError('Shipping Number not found.'));
+        response.setStatus(404);
+        return;
+    }
+
+
+    var shipTable = 'x_1212975_ship_ship';
+    var shipGr = new GlideRecord(shipTable);
+    shipGr.addQuery('number',number);
+    shipGr.query();
+
+    if (!shipGr.hasNext()) {
+        response.setError(new sn_ws_err.NotFoundError('No shipment found.'));
+        response.setStatus(404);
+        return;
+    }
+
+    while (shipGr.next()) {
+
+        var shipObj = {
+            "shipment number": shipGr.getValue('number'),
+            "Requested For": shipGr.getValue('requestedfor'),
+            "contact number": shipGr.getValue('u_integer_2'),
+            "order type": shipGr.getValue('u_choice_1')
+
+        };
+        answer.push(shipObj);
+    }
+
+    response.setBody(answer);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1212975_ship/shipment/shipment/{shipment_number}</operation_uri>
+        <produces>application/json</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/shipment/{shipment_number}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-18 07:31:07</sys_created_on>
+        <sys_id>2d0a05c74769421093d40c59e16d43ef</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Get shipment</sys_name>
+        <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+        <sys_update_name>sys_ws_operation_2d0a05c74769421093d40c59e16d43ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-18 07:42:21</sys_updated_on>
+        <web_service_definition display_value="Shipment">b60d60cb47e5421093d40c59e16d4378</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

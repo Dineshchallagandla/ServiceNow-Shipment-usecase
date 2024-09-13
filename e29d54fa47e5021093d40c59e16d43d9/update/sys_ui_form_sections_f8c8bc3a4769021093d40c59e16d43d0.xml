@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f8c8bc3a4769021093d40c59e16d43d0" sys_domain="global" table="incident" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>78c8bc3a4769021093d40c59e16d43d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">f8c8bc3a4769021093d40c59e16d43d0</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">bdede47e4729021093d40c59e16d43fb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34c8bc3a4769021093d40c59e16d43d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">f8c8bc3a4769021093d40c59e16d43d0</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">74c8bc3a4769021093d40c59e16d43ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcc8fc3a4769021093d40c59e16d4315</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">f8c8bc3a4769021093d40c59e16d43d0</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">f0c8bc3a4769021093d40c59e16d43cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:09</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5c8fc3a4769021093d40c59e16d4319</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="incident" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">f8c8bc3a4769021093d40c59e16d43d0</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="incident" sys_domain="global" view="a11d6cfa4729021093d40c59e16d4398">7cc8bc3a4769021093d40c59e16d43cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-17 11:13:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8c8bc3a4769021093d40c59e16d43d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f8c8bc3a4769021093d40c59e16d43d0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-17 11:13:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="ship" name="ship">a11d6cfa4729021093d40c59e16d4398</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

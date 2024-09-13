@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="INSERT_OR_UPDATE">
+        <description/>
+        <name>ship</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>abel.tuter</sys_created_by>
+        <sys_created_on>2024-04-23 07:46:45</sys_created_on>
+        <sys_id>3c03cbe84739c61093d40c59e16d43db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ship</sys_name>
+        <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+        <sys_update_name>sys_ux_screen_type_3c03cbe84739c61093d40c59e16d43db</sys_update_name>
+        <sys_updated_by>abel.tuter</sys_updated_by>
+        <sys_updated_on>2024-04-23 07:46:45</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c03cbe84739c61093d40c59e16d43db"/>
+</record_update>

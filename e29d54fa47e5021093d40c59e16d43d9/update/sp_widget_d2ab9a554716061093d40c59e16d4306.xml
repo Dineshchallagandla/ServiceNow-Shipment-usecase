@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>home_page_title</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Home Page Title</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-20 09:21:27</sys_created_on>
+        <sys_id>d2ab9a554716061093d40c59e16d4306</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Home Page Title</sys_name>
+        <sys_package display_value="ship" source="x_1212975_ship">e29d54fa47e5021093d40c59e16d43d9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ship">e29d54fa47e5021093d40c59e16d43d9</sys_scope>
+        <sys_update_name>sp_widget_d2ab9a554716061093d40c59e16d4306</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-20 09:23:29</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  Hello
+</div>]]></template>
+    </sp_widget>
+</record_update>
