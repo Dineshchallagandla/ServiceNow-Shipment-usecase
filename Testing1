@@ -5,6 +5,7 @@ stages:
 create_file:
   image: alpine
   stage: build
+sjhgdsyg
   script:
     - echo "Building ..."
     - mkdir build
